@@ -12,3 +12,7 @@ To address these issues, I experimented with Google's Mediapipe landmark pipelin
 [Link to Colab Model](https://colab.research.google.com/drive/1qmt4F5M7FDTbBYy42dDhiIpQe5vTR22x#scrollTo=1_pux_SfseU5)
 
 The resulting model now performs better on real-world images, though further finetuning is needed to improve its performance.
+
+**Third-Party Licenses**
+
+This project uses [Google MediaPipe](https://mediapipe.dev/), which is licensed under the Apache License 2.0. Please refer to [MediaPipe's license](https://github.com/google/mediapipe/blob/master/LICENSE) for details.

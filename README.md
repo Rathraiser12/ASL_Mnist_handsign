@@ -2,7 +2,7 @@
 
 This project trains a CNN using TensorFlow and Keras to classify ASL hand signs from the Sign Language MNIST dataset (28×28 grayscale images). I achieved an F1 score of 0.99 on this dataset.
 
-The model uses 3 convolution blocks, with batch norm, L2 regularization, dropout and tanh activation function.
+The model uses 3 convolution blocks, with batch norm, L2 regularization, dropout and tanh activation function. I also use cuda to train locally on my gpu.
 
 **Setbacks:**  
 Real-world images (e.g., from a webcam) differ significantly from MNIST data—they're higher resolution, have complex backgrounds, and may include unwanted elements (like faces), which leads to poor real-time predictions despite the model's high performance on MNIST.

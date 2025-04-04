@@ -1,0 +1,16 @@
+name: signlang39
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - cudatoolkit=11.2
+  - cudnn=8.1.0
+  - pip
+  - pip:
+      - tensorflow==2.9.1
+      - pandas
+      - "numpy<2"
+      - scikit-learn
+      - matplotlib
+      - opencv-python
